@@ -1,0 +1,30 @@
+# Dataset files
+data/*
+!data/raw/
+!data/processed/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Large data files
+*.csv
+*.parquet
+*.pcap
+*.pcapng
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+.venv/
+
+# Generated outputs
+outputs/
+outputs_cicids2017/
