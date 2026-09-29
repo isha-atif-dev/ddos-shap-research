@@ -1,6 +1,6 @@
 # Explanation Stability Score (ESS): Monitoring Explanation Drift in Deployed DDoS Detection Models
 
-This repository contains the full experimental pipeline for the MRes dissertation *"Detecting Explanation Drift in DDoS Models: A SHAP Stability Score Framework"* (Isha Atif University of Greater Manchester).
+This repository contains the full experimental pipeline for the MRes dissertation *"Detecting Explanation Drift in DDoS Models: A SHAP Stability Score Framework"* 
 
 The dissertation proposes the **Explanation Stability Score (ESS)**, a Spearman rank correlation between a baseline and deployment-batch SHAP feature importance ranking, and tests whether this can serve as an independent, complementary signal for monitoring deployed XGBoost-based DDoS classifiers, alongside accuracy and Population Stability Index (PSI) monitoring.
 
